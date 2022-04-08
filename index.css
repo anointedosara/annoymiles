@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    border-bottom: 2px solid silver;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.ul2 li {
+    margin-right: 20px;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid silver;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-right: 20px;
+}
+
+.div3 img {
+    margin-right: 10px;
+}
+
+.div3 p {
+    margin: 0;
+}
+
+.img1 {
+    width: 20px;
+}
+
+.img2 {
+    width: 20px;
+}
+
+.img3 {
+    width: 50px;
+    
+}
+
+.img4 {
+    width: 50px;
+    position: relative;
+    z-index: 1000000;
+}
+
+.img5 {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.img6 {
+    width: 20px;
+}
+
+.ul1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    margin: 20px 0 0 -39px;
+}
+
+.ul1 li {
+    margin-bottom: 20px;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.div6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid silver;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    background: white;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.div6 p {
+    margin: 0;
+}
+
+.div6 img {
+    margin-right: 10px;
+}
+
+.div5 {
+    position: absolute;
+    background: silver;
+    top: 0;
+    right: 0;
+    display: none;
+    padding: 20px 20px;
+    width: 300px;
+    border-radius: 15px 0 0 15px;
+}
+
+.class {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .class {
+        display: block;
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    #input:checked ~ .div5 {
+        display: block;
+    }
+
+    .ul2 {
+        display: none;
+    }
+
+    .navbar {
+        padding: 10px 30px 10px 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .div5 {
+        width: 230px;
+    }
+
+}
