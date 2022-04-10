@@ -187,6 +187,7 @@ body {
 }
 
 .div7 {
+    height: 88vh;
     background: white;
     padding: 40px 80px 0px 80px;
 }
@@ -215,7 +216,7 @@ body {
 .div10 {
     width: max-content;
     overflow: auto;
-    height: 440px;
+    height: 430px;
     position: sticky;
     left: 80px;
 }
@@ -267,7 +268,7 @@ body {
 .div12 {
     width: 100%;
     overflow: auto;
-    height: 440px;
+    height: 430px;
     position: sticky;
     left: 80px;
 }
