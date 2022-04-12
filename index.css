@@ -423,7 +423,7 @@ body {
 
     .div102 {
         display: block;
-        width: 93%;
+        width: 92%;
         margin: 0 auto;
         overflow: auto;
         height: 80px;
@@ -717,7 +717,7 @@ body {
         font-size: 15px;
         justify-content: space-between;
         flex-direction: column;
-        padding: 20px 20px 0 20px;
+        padding: 20px 0px 0 0px;
     }
     
     .div21 input {
@@ -730,7 +730,7 @@ body {
     
     .div22 {
         display: flex;
-        padding: 20px;
+        padding: 20px 0;
         justify-content: space-between;
         flex-direction: column;
         font-size: 15px;
@@ -751,7 +751,7 @@ body {
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 20px 0;
         width: 100%;
     }
 
@@ -1122,7 +1122,7 @@ body {
 
     .div27 {
         display: flex;
-        padding: 20px;
+        padding: 20px 0;
         justify-content: space-between;
         flex-direction: column;
     }
@@ -1175,7 +1175,7 @@ body {
     .div32 {
         justify-content: space-between;
         flex-direction: column;
-        padding: 0px 20px 20px 20px;
+        padding: 0px 0px 20px 0px;
     }
     
     .div33 {
@@ -1207,7 +1207,7 @@ body {
         justify-content: space-between;
         flex-direction: column;
         max-width: 660px;
-        padding: 20px;
+        padding: 20px 0;
     }
     
     .div36 {
@@ -1240,7 +1240,7 @@ body {
     }
 
     .div38 {
-        padding: 40px 10px 100px 10px;
+        padding: 40px 20px 100px 0px;
     }
     
     .div38 div {
