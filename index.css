@@ -565,8 +565,6 @@ body {
 }
 
 .div21 input:focus {
-    outline-offset: 1px;
-    outline: 2px solid chocolate;
     background: silver;
 }
 
@@ -591,8 +589,6 @@ body {
 }
 
 .div22 input:focus {
-    outline-offset: 1px;
-    outline: 2px solid chocolate;
     background: silver;
 }
 
@@ -833,8 +829,6 @@ body {
 }
 
 .div29 textarea:focus {
-    outline-offset: 1px;
-    outline: 2px solid chocolate;
     background: silver;
 }
 
@@ -863,8 +857,6 @@ body {
 }
 
 .div30 select:focus {
-    outline-offset: 1px;
-    outline: 2px solid chocolate;
     background: silver;
     color: red;
 }
@@ -903,12 +895,9 @@ body {
     font-weight: bold;
     font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif; 
     font-size: 15px;
-    margin-left: 5px;
 }
 
 .job:focus {
-    outline-offset: 1px;
-    outline: 2px solid chocolate;
     background: silver;
 }
 
@@ -957,9 +946,6 @@ body {
     border-radius: 10px;
     border: 2px solid silver;
     transition: 0.5s all ease;
-    outline: 2px solid chocolate;
-    outline-offset: 1px;
-    margin-left: 5px;
 }
 
 .div37:hover {
@@ -1015,7 +1001,7 @@ body {
     }
 
     .div27 {
-        max-width: 650px;
+        max-width: 660px;
     }
     
     .div28 p:first-child {
@@ -1122,7 +1108,7 @@ body {
 
     .div27 {
         display: flex;
-        padding: 20px 0;
+        padding: 20px 5px;
         justify-content: space-between;
         flex-direction: column;
     }
